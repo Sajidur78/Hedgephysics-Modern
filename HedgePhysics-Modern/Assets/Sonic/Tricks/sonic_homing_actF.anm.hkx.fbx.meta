@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: bf5601436dfe89d49860776dd182c935
+timeCreated: 1491754184
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BrowA_C_LT@LT
+    100002: BrowA_L_LT@LT
+    100004: BrowA_R_LT@LT
+    100006: Calf_L
+    100008: Calf_R
+    100010: Ear_L
+    100012: Ear_R
+    100014: Elbow_L
+    100016: Elbow_R
+    100018: Eye_L
+    100020: Eye_R
+    100022: Eyelid_bones
+    100024: EyeLidLow1_L
+    100026: EyeLidLow1_R
+    100028: EyeLidLow2_L
+    100030: EyeLidLow2_R
+    100032: EyeLidLow_C
+    100034: EyeLidUp1_L
+    100036: EyeLidUp1_R
+    100038: EyeLidUp2_L
+    100040: EyeLidUp2_R
+    100042: EyeLidUp3_L
+    100044: EyeLidUp3_R
+    100046: EyeLidUp_C
+    100048: Foot_L
+    100050: Foot_R
+    100052: ForeArm_L
+    100054: ForeArm_R
+    100056: Hand_L
+    100058: Hand_R
+    100060: Head
+    100062: Help01
+    100064: Help02
+    100066: Hips
+    100068: Index1_L
+    100070: Index1_R
+    100072: Index2_L
+    100074: Index2_R
+    100076: Index3_L
+    100078: Index3_R
+    100080: Jaw_LT@LT
+    100082: Knee_L
+    100084: Knee_R
+    100086: Lip_C_LT@LT
+    100088: Lip_L_LT@LT
+    100090: Lip_R_LT@LT
+    100092: Middle1_L
+    100094: Middle1_R
+    100096: Middle2_L
+    100098: Middle2_R
+    100100: Middle3_L
+    100102: Middle3_R
+    100104: Model_EyeBoard
+    100106: MouthReference
+    100108: Neck
+    100110: Needle1_B_C
+    100112: Needle1_B_L
+    100114: Needle1_B_R
+    100116: Needle1_U_C
+    100118: Needle1_U_L
+    100120: Needle1_U_R
+    100122: Needle_B_C
+    100124: Needle_B_L
+    100126: Needle_B_R
+    100128: Needle_U_C
+    100130: Needle_U_L
+    100132: Needle_U_R
+    100134: Nose
+    100136: Pinky1_L
+    100138: Pinky1_R
+    100140: Pinky2_L
+    100142: Pinky2_R
+    100144: Pinky3_L
+    100146: Pinky3_R
+    100148: Reference
+    100150: Ring1_L
+    100152: Ring1_R
+    100154: Ring2_L
+    100156: Ring2_R
+    100158: Ring3_L
+    100160: Ring3_R
+    100162: Shoulder_L
+    100164: Shoulder_R
+    100166: Socks_L
+    100168: Socks_R
+    100170: Sonic_body
+    100172: Sonic_Cloth
+    100174: Sonic_Eyelid
+    100176: Sonic_Foot
+    100178: //RootNode
+    100180: Sonic_Mouth
+    100182: SonicRoot
+    100184: SonicRoot 1
+    100186: Spine
+    100188: Spine1
+    100190: Tail
+    100192: Tail1
+    100194: Thigh_L
+    100196: Thigh_R
+    100198: Thumb1_L
+    100200: Thumb1_R
+    100202: Thumb2_L
+    100204: Thumb2_R
+    100206: Thumb3_L
+    100208: Thumb3_R
+    100210: Toe_L
+    100212: Toe_R
+    100214: UpperArm_L
+    100216: UpperArm_R
+    100218: Wing_L
+    100220: Wing_R
+    100222: Wrist_L
+    100224: Wrist_R
+    400000: BrowA_C_LT@LT
+    400002: BrowA_L_LT@LT
+    400004: BrowA_R_LT@LT
+    400006: Calf_L
+    400008: Calf_R
+    400010: Ear_L
+    400012: Ear_R
+    400014: Elbow_L
+    400016: Elbow_R
+    400018: Eye_L
+    400020: Eye_R
+    400022: Eyelid_bones
+    400024: EyeLidLow1_L
+    400026: EyeLidLow1_R
+    400028: EyeLidLow2_L
+    400030: EyeLidLow2_R
+    400032: EyeLidLow_C
+    400034: EyeLidUp1_L
+    400036: EyeLidUp1_R
+    400038: EyeLidUp2_L
+    400040: EyeLidUp2_R
+    400042: EyeLidUp3_L
+    400044: EyeLidUp3_R
+    400046: EyeLidUp_C
+    400048: Foot_L
+    400050: Foot_R
+    400052: ForeArm_L
+    400054: ForeArm_R
+    400056: Hand_L
+    400058: Hand_R
+    400060: Head
+    400062: Help01
+    400064: Help02
+    400066: Hips
+    400068: Index1_L
+    400070: Index1_R
+    400072: Index2_L
+    400074: Index2_R
+    400076: Index3_L
+    400078: Index3_R
+    400080: Jaw_LT@LT
+    400082: Knee_L
+    400084: Knee_R
+    400086: Lip_C_LT@LT
+    400088: Lip_L_LT@LT
+    400090: Lip_R_LT@LT
+    400092: Middle1_L
+    400094: Middle1_R
+    400096: Middle2_L
+    400098: Middle2_R
+    400100: Middle3_L
+    400102: Middle3_R
+    400104: Model_EyeBoard
+    400106: MouthReference
+    400108: Neck
+    400110: Needle1_B_C
+    400112: Needle1_B_L
+    400114: Needle1_B_R
+    400116: Needle1_U_C
+    400118: Needle1_U_L
+    400120: Needle1_U_R
+    400122: Needle_B_C
+    400124: Needle_B_L
+    400126: Needle_B_R
+    400128: Needle_U_C
+    400130: Needle_U_L
+    400132: Needle_U_R
+    400134: Nose
+    400136: Pinky1_L
+    400138: Pinky1_R
+    400140: Pinky2_L
+    400142: Pinky2_R
+    400144: Pinky3_L
+    400146: Pinky3_R
+    400148: Reference
+    400150: Ring1_L
+    400152: Ring1_R
+    400154: Ring2_L
+    400156: Ring2_R
+    400158: Ring3_L
+    400160: Ring3_R
+    400162: Shoulder_L
+    400164: Shoulder_R
+    400166: Socks_L
+    400168: Socks_R
+    400170: Sonic_body
+    400172: Sonic_Cloth
+    400174: Sonic_Eyelid
+    400176: Sonic_Foot
+    400178: //RootNode
+    400180: Sonic_Mouth
+    400182: SonicRoot
+    400184: SonicRoot 1
+    400186: Spine
+    400188: Spine1
+    400190: Tail
+    400192: Tail1
+    400194: Thigh_L
+    400196: Thigh_R
+    400198: Thumb1_L
+    400200: Thumb1_R
+    400202: Thumb2_L
+    400204: Thumb2_R
+    400206: Thumb3_L
+    400208: Thumb3_R
+    400210: Toe_L
+    400212: Toe_R
+    400214: UpperArm_L
+    400216: UpperArm_R
+    400218: Wing_L
+    400220: Wing_R
+    400222: Wrist_L
+    400224: Wrist_R
+    4300000: SonicRoot
+    7400000: sn_Trick_F
+    9500000: //RootNode
+    13700000: SonicRoot
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: sn_Trick_F
+      takeName: 
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SonicRoot
+        weight: 1
+      - path: SonicRoot 1
+        weight: 1
+      - path: SonicRoot 1/Help01
+        weight: 1
+      - path: SonicRoot 1/Help02
+        weight: 1
+      - path: SonicRoot 1/Reference
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/BrowA_C_LT@LT
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/BrowA_L_LT@LT
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/BrowA_R_LT@LT
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Ear_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Ear_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eye_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eye_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidLow1_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidLow1_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidLow2_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidLow2_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidLow_C
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidUp1_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidUp1_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidUp2_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidUp2_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidUp3_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidUp3_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/EyeLidUp_C
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Eyelid_bones/Sonic_Eyelid
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Model_EyeBoard
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/MouthReference
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/MouthReference/Jaw_LT@LT
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/MouthReference/Lip_C_LT@LT
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/MouthReference/Lip_L_LT@LT
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/MouthReference/Lip_R_LT@LT
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Neck/Head/Nose
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/Elbow_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index1_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index1_L/Index2_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index1_L/Index2_L/Index3_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle1_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle1_L/Middle2_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle1_L/Middle2_L/Middle3_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky1_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky1_L/Pinky2_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky1_L/Pinky2_L/Pinky3_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring1_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring1_L/Ring2_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring1_L/Ring2_L/Ring3_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/Elbow_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index1_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index1_R/Index2_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index1_R/Index2_R/Index3_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle1_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle1_R/Middle2_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle1_R/Middle2_R/Middle3_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky1_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky1_R/Pinky2_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky1_R/Pinky2_R/Pinky3_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring1_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring1_R/Ring2_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring1_R/Ring2_R/Ring3_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Wing_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Spine/Spine1/Wing_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Tail
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Tail/Tail1
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_L/Calf_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_L/Calf_L/Foot_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_L/Calf_L/Foot_L/Toe_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_L/Calf_L/Socks_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_L/Knee_L
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_R/Calf_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_R/Calf_R/Foot_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_R/Calf_R/Foot_R/Toe_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_R/Calf_R/Socks_R
+        weight: 1
+      - path: SonicRoot 1/Reference/Hips/Thigh_R/Knee_R
+        weight: 1
+      - path: SonicRoot 1/Sonic_body
+        weight: 1
+      - path: SonicRoot 1/Sonic_Cloth
+        weight: 1
+      - path: SonicRoot 1/Sonic_Foot
+        weight: 1
+      - path: SonicRoot 1/Sonic_Mouth
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

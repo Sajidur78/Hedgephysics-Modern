@@ -39,7 +39,10 @@ public class LSD_Control : MonoBehaviour {
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position, RingSeachDistance,RingLayer,QueryTriggerInteraction.Collide);
         Deubg = colliders;
-        ClosestRing = colliders[0].gameObject;
+        if (colliders.Length > 0)
+            ClosestRing = colliders[0].gameObject;
+        else
+            return;
     }
     private void OnDrawGizmosSelected()
     {

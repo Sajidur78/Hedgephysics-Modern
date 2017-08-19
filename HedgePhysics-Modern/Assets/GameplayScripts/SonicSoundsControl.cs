@@ -8,6 +8,7 @@ public class SonicSoundsControl : MonoBehaviour {
     static AudioSource Source;
     public AudioSource Source2;
     public AudioSource Source3;
+    public AudioSource EffectsSource;
     public AudioClip[] FootSteps;
     public AudioClip Jumping;
     public AudioClip AirDash;
@@ -91,5 +92,10 @@ public class SonicSoundsControl : MonoBehaviour {
     public static void Play(AudioClip Clip) {
         Source.clip = Clip;
         Source.Play();
+    }
+    public void PlayEffect(AudioClip Clip)
+    {
+        EffectsSource.clip = Clip;
+        EffectsSource.Play();
     }
 }

@@ -127,7 +127,7 @@ Material:
     - _SnowDetailTiling: {r: 4, g: 4, b: 0, a: 0}
     - _SnowMaskTiling: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _SnowTiling: {r: 2, g: 2, b: 0, a: 0}
-    - _SpecColor: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 1}
+    - _SpecColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
     - _SpecColor2: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _UVRatio: {r: 1, g: 1, b: 0, a: 0}
     - _WaterAccumulationCracksPuddles: {r: 0, g: 1, b: 0, a: 1}

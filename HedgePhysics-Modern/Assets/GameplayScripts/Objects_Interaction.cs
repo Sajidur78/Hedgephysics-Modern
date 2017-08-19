@@ -90,8 +90,17 @@ public class Objects_Interaction : MonoBehaviour {
             Platform = null;
         }
     }
-
-	public void OnTriggerEnter(Collider col)
+    private void OnCollisionEnter(Collision col)
+    {
+        if (col.transform.GetComponent<SwitchProperties>()) {
+            var swis = col.transform.GetComponent<SwitchProperties>();
+            if (!swis.isPressed) {
+                swis.isPressed = true;
+                swis.Onpress.Invoke();
+            }
+        }
+    }
+    public void OnTriggerEnter(Collider col)
     {
         //Speed Pads Collision
         if(col.tag == "SpeedPad")

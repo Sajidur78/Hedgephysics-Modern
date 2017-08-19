@@ -14,13 +14,14 @@ public class Action07_Boost : MonoBehaviour {
     public AudioClip BoostStartClip;
     public ParticleSystem BoostParticle;
     public ParticleSystem BoostScreenParticle;
+    public SonicSoundsControl SoundsControl;
 
     void Start () {
         Player = GetComponent<PlayerBhysics>();
         Actions = GetComponent<ActionManager>();
 	}
     public void InitialEvents() {
-        SonicSoundsControl.Play(BoostStartClip);
+        SoundsControl.PlayEffect(BoostStartClip);
         BoostScreenParticle.Play();
     }
 	// Update is called once per frame

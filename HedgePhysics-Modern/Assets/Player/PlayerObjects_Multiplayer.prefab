@@ -15604,7 +15604,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  LockHeight: 1
+  LockHeight: 0
   LockHeightSpeed: 3
   MoveHeightBasedOnSpeed: 1
   HeightToLock: 17

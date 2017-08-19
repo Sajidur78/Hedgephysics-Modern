@@ -331,7 +331,7 @@ MonoBehaviour:
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
   m_OfflineScene: Lobby
-  m_OnlineScene: '[Stage01_AltitudeLimit]'
+  m_OnlineScene: Empire City
   m_SpawnPrefabs: []
   m_CustomConfig: 0
   m_MaxConnections: 4

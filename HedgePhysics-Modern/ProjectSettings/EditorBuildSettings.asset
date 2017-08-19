@@ -6,23 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/LogoScreen.unity
+    path: Assets/Scenes/LogoScreen.unity
     guid: 85c65dc7ca75cc2458be3aba0575d574
   - enabled: 1
-    path: Assets/StageSelect.unity
+    path: Assets/Scenes/StageSelect.unity
     guid: be5ebf4203cde3740bc452472c7d7867
   - enabled: 1
-    path: Assets/LoadingScreen.unity
+    path: Assets/Scenes/LoadingScreen.unity
     guid: 5222abf34946d874fb2350750e29d16d
   - enabled: 1
-    path: Assets/[Stage00_Test].unity
+    path: Assets/Scenes/[Stage00_Test].unity
     guid: a90b678190b165449926e601232c0e3f
   - enabled: 1
-    path: Assets/[Stage01_AltitudeLimit].unity
+    path: Assets/Scenes/[Stage01_AltitudeLimit].unity
     guid: 589691f2ba49f5a469f26b207e9ec97d
   - enabled: 1
-    path: Assets/StageCompleteScreen.unity
+    path: Assets/Scenes/StageCompleteScreen.unity
     guid: da2531454c9a98440b8ce517b9b69a51
   - enabled: 1
-    path: Assets/Lobby.unity
+    path: Assets/Scenes/Lobby.unity
     guid: e0542a2942ff6e54784f42380f3ad67f
+  - enabled: 1
+    path: Assets/Scenes/Empire City.unity
+    guid: 4d962fc742e85b54c9b74e4c97f4514d

@@ -20,7 +20,7 @@ public class Action08_Stomping : MonoBehaviour {
         Player.AddVelocity(Vector3.down * StompPower);
         if (Player.Grounded) {
             SonicSoundsControl.Play(StompLandClip);
-            Player.rigidbody.velocity = Vector3.zero;
+            Player.rigidbody.velocity = Player.rigidbody.velocity / 2;
             Actions.ChangeAction(0);
         }
 	}

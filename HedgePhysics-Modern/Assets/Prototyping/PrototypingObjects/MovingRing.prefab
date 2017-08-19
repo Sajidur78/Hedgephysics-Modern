@@ -28,7 +28,8 @@ GameObject:
   - component: {fileID: 114000013086574962}
   - component: {fileID: 114258807166910920}
   - component: {fileID: 114040505165687866}
-  m_Layer: 0
+  - component: {fileID: 215386785894713032}
+  m_Layer: 16
   m_Name: MovingRing
   m_TagString: MovingRing
   m_Icon: {fileID: 0}
@@ -44,7 +45,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000013193976964}
   - component: {fileID: 135000013224459440}
-  m_Layer: 15
+  m_Layer: 16
   m_Name: Col
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010258715224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.33829, y: 52.3, z: 58.363194}
+  m_LocalPosition: {x: 113.19153, y: -22.78, z: -15.703247}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000013193976964}
@@ -91,7 +92,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: a105e9e293f332945a1af0bf962c2798, type: 2}
+  - {fileID: 2100000, guid: 39b19bf9d7f026f4c825ad76d913b832, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -233,3 +234,35 @@ LODGroup:
     renderers:
     - renderer: {fileID: 23000011003110078}
   m_Enabled: 1
+--- !u!215 &215386785894713032
+ReflectionProbe:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010258715224}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 1
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 0.503988, y: 2.48666, z: 2.500357}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1.47
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}

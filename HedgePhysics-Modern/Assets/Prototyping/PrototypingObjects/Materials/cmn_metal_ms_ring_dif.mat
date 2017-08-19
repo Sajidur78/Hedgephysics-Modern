@@ -7,9 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: cmn_metal_ms_ring_dif
-  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 1
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -66,6 +66,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cull: 2
@@ -79,8 +83,8 @@ Material:
     - _DiffuseScatteringEnabled: 1
     - _DoubleSided: 0
     - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 1
+    - _GlossMapScale: 0.804
+    - _Glossiness: 0.804
     - _Glossiness2: 0.5
     - _GlossyReflections: 1
     - _Lighting: 0
@@ -90,7 +94,7 @@ Material:
     - _Lux_FlowNormalTiling: 2
     - _Lux_FlowRefraction: 0.02
     - _Lux_FlowSpeed: 0.05
-    - _Metallic: 1
+    - _Metallic: 0.989
     - _Metallic2: 0
     - _MixMappingControl: 0
     - _Mode: 0
@@ -119,16 +123,17 @@ Material:
     - _Wetness: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 0, a: 1}
+    - _Color: {r: 1, g: 0.7254902, b: 0, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseScatteringCol: {r: 0.77931035, g: 1, b: 0, a: 0}
     - _DiffuseScatteringCol2: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0.66, g: 0.6144828, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SnowAccumulation: {r: 0, g: 1, b: 0, a: 0}
     - _SnowDetailTiling: {r: 4, g: 4, b: 0, a: 0}
     - _SnowMaskTiling: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _SnowTiling: {r: 2, g: 2, b: 0, a: 0}
-    - _SpecColor: {r: 1, g: 1, b: 0, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor2: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _UVRatio: {r: 1, g: 1, b: 0, a: 0}
     - _WaterAccumulationCracksPuddles: {r: 0, g: 1, b: 0, a: 1}
     - _WaterAccumulationCracksPuddles2: {r: 0, g: 1, b: 0, a: 1}

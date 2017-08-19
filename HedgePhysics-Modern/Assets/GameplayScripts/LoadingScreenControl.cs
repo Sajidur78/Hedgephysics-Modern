@@ -35,7 +35,7 @@ public class LoadingScreenControl : MonoBehaviour {
         count += 1;
         if (count == LoadingStart)
         {
-            SceneManager.LoadSceneAsync(LevelToLoad, LoadSceneMode.Additive);
+            SceneManager.LoadSceneAsync(LevelToLoad, LoadSceneMode.Single);
         }
 
         if(!over && StageLoaded)
